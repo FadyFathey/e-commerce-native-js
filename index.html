@@ -534,14 +534,16 @@
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="hero-background">
-            <img src="imgs/shop-hero-1-product-slide-1.jpg" alt="Summer collection background">
+            <img id="hero-img" src="" alt="Summer collection background">
         </div>
         <div class="container">
             <div class="hero-content">
-                <span class="hero-label">SUMMER 2020</span>
-                <h1 class="hero-title">NEW COLLECTION</h1>
-                <p class="hero-description">We know how large objects will act, but things on a small scale.</p>
-                <a href="#" class="shop-now-btn">SHOP NOW</a>
+                <span class="hero-label"></span>
+                <h1 class="hero-title"></h1>
+                <p class="hero-description"></p>
+                <a href="#" class="shop-now-btn">
+                    <span class="btn-text">SHOP NOW</span>
+                </a>
             </div>
         </div>
 
@@ -568,17 +570,7 @@
         </div>
     </section>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const menuToggle = document.getElementById("menuToggle");
-            const mobileMenu = document.getElementById("mobileMenu");
-
-            // Mobile menu toggle functionality
-            menuToggle.addEventListener("click", function () {
-                mobileMenu.classList.toggle("active");
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
